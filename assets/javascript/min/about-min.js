@@ -1,0 +1,1 @@
+$(window).scroll(function(){var t=$(this).scrollTop();t>$(".abouttextimage").offset().top-$(window).height()/2&&$(".abouttextimage figure").each(function(t){setTimeout(function(){$(".abouttextimage figure").eq(t).addClass("is-showing")},150*(t+1))})});
