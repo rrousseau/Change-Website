@@ -1,0 +1,133 @@
+section.services
+  height: auto
+  background:
+    image: url(../img/services-back.jpg)
+  background-attachment: fixed
+  background-position: center center
+  background-size: cover
+  overflow: hidden
+
+  .serv-header
+    text-align: center
+  .services-belt
+    display: flex
+    flex-direction: row
+    width: 200%
+    position: relative
+    left: 0%
+    -webkit-transition: all 800ms
+    -moz-transition: all 800ms
+    transition: all 800ms
+    .cds
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-align: justify
+      .border-box
+        display: flex
+        flex-direction: row
+        maxwidth: 960px
+        align-items: center
+        .title
+          display: flex
+          flex-direction: column
+          align-items: center
+          h3
+            font-size: 2em
+            letter-spacing: 0.1em
+            margin-top: 70px
+          em
+            color: white
+        hr
+          width: 200px
+          border-top: 0px solid white
+
+      .servicesblocks
+        margin-bottom: 30px
+        figure.figure2
+          text-align: center
+          opacity: 0
+          transform: translateX(0px)
+          transition: all 2s ease-in-out
+          &:hover
+            background-color: rgba(255,255,255,0.2)
+            transition: all 0.5s ease-in-out
+          .readmore
+            &:hover
+              background-color: white
+              cursor: pointer
+              p
+                color: grey
+          &.is-showing
+            opacity: 1
+            transform: translateX(0px)
+
+      .serv-grid
+        display: flex
+        flex-wrap: wrap
+        align-content: space-between
+        padding: 15px
+
+        .serv
+          display: flex
+          flex-direction: column
+          align-items: center
+          max-width: 300px
+          height: auto
+          padding: 15px
+          margin: 15px
+
+          .icon
+            img
+              width: 50px
+              height: 50px
+              margin-bottom: 0px
+
+          .title
+
+          .desc
+            text-align: justify
+
+          .cta
+            width: 150px
+            border: 0px solid white
+            border-radius: 5px
+            text-align: center
+            margin-top: 20px
+
+            p
+              margin: 5px
+
+  .services-wrap
+    display: flex
+    justify-content: center
+    .services-container
+      max-width: 960px
+      height: auto
+      margin: 50px auto 50px auto
+      padding: 20px
+      .services-flex-container
+        display: flex
+        flex-direction: column
+        width: 100%
+        padding: 15px
+        margin: 5px
+        background-color: rgba(255,255,255,0.2)
+        text-align: justify
+        .services-return
+          img
+            height: 50px
+            width: 50px
+            cursor: pointer
+            position: absolute
+            &:hover
+              opacity: 0.5
+        .serv-logo
+          height: 60px
+          width: 60px
+          background-color: red
+          margin: 0px auto 20px auto
+          opacity: 0.7
+        .serv-load
+          width: 100%
+          text-align: justify

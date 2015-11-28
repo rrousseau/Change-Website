@@ -1,0 +1,67 @@
+.home-wrap
+  display: flex
+  width: auto
+
+.home-sections
+  flex: 1
+  width: 100%
+
+  .flex
+    display: flex
+    flex-direction: rows
+
+  .flex--center
+    justify-content: center
+
+  .flex--space-around
+    justify-content: space-around
+
+  .order-first
+    order: -1
+
+//columns
+.col-1
+  max-width: 300px
+  margin: 0 10px
+
+.col-2
+  display: flex
+  align-items: center
+  max-width: 620px
+  margin: 0 10px
+
+.col-50
+  width: 50%
+  margin: 40px
+  display: flex
+  align-items: center
+
+.servicesblocks-wrap
+  width: 50%
+  display: flex
+
+.services-wrap
+  width: 50%
+  display: flex
+  height: auto
+
+.col-3
+  width: 50%
+
+
+
+@media (max-width: 640px)
+  .home-sections .flex
+    display: block
+
+  .col-1
+    max-width: 100%
+
+  .col-50
+    width: auto
+
+  .servicesblocks-wrap
+    width: 50%
+
+  .services-wrap
+    width: 50%

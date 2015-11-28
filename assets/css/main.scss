@@ -1,4 +1,13 @@
 @import "0-tools/bourbon/bourbon";
 @import "0-tools/normalize";
+@import "0-tools/fonts";
+
 @import "1-base/vars";
 @import "1-base/base";
+
+@import "3-sections/home";
+@import "3-sections/header";
+@import "3-sections/intro";
+@import "3-sections/quote-parralax";
+@import "3-sections/aboutus";
+@import "3-sections/services";

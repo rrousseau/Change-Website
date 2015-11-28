@@ -1,0 +1,19 @@
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+
+mixin nav-content()
+  ul
+    li: a(href='#1') home          
+    li: a(href='#2') about           
+    li: a(href='#3') services            
+    li: a(href='#4') work            
+    li: a(href='#5') contact us
+
+.mobile-nav
+  +nav-content()
+
+header
+  nav.sitenav
+    +nav-content()
+      
+  .mobile-nav-toggle: span
+    

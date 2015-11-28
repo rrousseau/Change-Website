@@ -44,9 +44,9 @@ function serv1Load() {
 
 	$('.serv1').click(function(){
 
-		var serv1HTML = './serv/serv-1/serv-1.html';
-			serv1Title = './serv/serv-1/serv-1title.html';
-			serv1Logo = './serv/serv-1/serv-1logo.html';
+		var serv1HTML = './assets/serv/serv-1/serv-1.html';
+			serv1Title = './assets/serv/serv-1/serv-1title.html';
+			serv1Logo = './assets/serv/serv-1/serv-1logo.html';
 		$('.serv-load').load(serv1HTML);
 		$('.serv-title').load(serv1Title);
 		$('.serv-logo').load(serv1Logo);
@@ -59,9 +59,9 @@ function serv2Load() {
 
 	$('.serv2').click(function(){
 
-		var serv2HTML = './serv/serv-2/serv-2.html';
-			serv2Title = './serv/serv-2/serv-2title.html';
-			serv2Logo = './serv/serv-2/serv-2logo.html';
+		var serv2HTML = './assets/serv/serv-2/serv-2.html';
+			serv2Title = './assets/serv/serv-2/serv-2title.html';
+			serv2Logo = './assets/serv/serv-2/serv-2logo.html';
 		$('.serv-load').load(serv2HTML);
 		$('.serv-title').load(serv2Title);
 		$('.serv-logo').load(serv2Logo);
@@ -74,9 +74,9 @@ function serv3Load() {
 
 	$('.serv3').click(function(){
 
-		var serv3HTML = './serv/serv-3/serv-3.html';
-			serv3Title = './serv/serv-3/serv-3title.html';
-			serv3Logo = './serv/serv-3/serv-3logo.html';
+		var serv3HTML = './assets/serv/serv-3/serv-3.html';
+			serv3Title = './assets/serv/serv-3/serv-3title.html';
+			serv3Logo = './assets/serv/serv-3/serv-3logo.html';
 		$('.serv-load').load(serv3HTML);
 		$('.serv-title').load(serv3Title);
 		$('.serv-logo').load(serv3Logo);
@@ -89,9 +89,9 @@ function serv4Load() {
 
 	$('.serv4').click(function(){
 
-		var serv4HTML = './serv/serv-4/serv-4.html';
-			serv4Title = './serv/serv-4/serv-4title.html';
-			serv4Logo = './serv/serv-4/serv-4logo.html';
+		var serv4HTML = './assets/serv/serv-4/serv-4.html';
+			serv4Title = './assets/serv/serv-4/serv-4title.html';
+			serv4Logo = './assets/serv/serv-4/serv-4logo.html';
 		$('.serv-load').load(serv4HTML);
 		$('.serv-title').load(serv4Title);
 		$('.serv-logo').load(serv4Logo);
@@ -104,9 +104,9 @@ function serv5Load() {
 
 	$('.serv5').click(function(){
 
-		var serv5HTML = './serv/serv-5/serv-5.html';
-			serv5Title = './serv/serv-5/serv-5title.html';
-			serv5Logo = './serv/serv-5/serv-5logo.html';
+		var serv5HTML = './assets/serv/serv-5/serv-5.html';
+			serv5Title = './assets/serv/serv-5/serv-5title.html';
+			serv5Logo = './assets/serv/serv-5/serv-5logo.html';
 		$('.serv-load').load(serv5HTML);
 		$('.serv-title').load(serv5Title);
 		$('.serv-logo').load(serv5Logo);
@@ -119,9 +119,9 @@ function serv6Load() {
 
 	$('.serv6').click(function(){
 
-		var serv6HTML = './serv/serv-6/serv-6.html';
-			serv6Title = './serv/serv-6/serv-6title.html';
-			serv6Logo = './serv/serv-6/serv-6logo.html';
+		var serv6HTML = './assets/serv/serv-6/serv-6.html';
+			serv6Title = './assets/serv/serv-6/serv-6title.html';
+			serv6Logo = './assets/serv/serv-6/serv-6logo.html';
 		$('.serv-load').load(serv6HTML);
 		$('.serv-title').load(serv6Title);
 		$('.serv-logo').load(serv6Logo);
