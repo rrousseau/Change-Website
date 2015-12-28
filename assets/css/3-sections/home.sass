@@ -43,25 +43,74 @@
 .services-wrap
   width: 50%
   display: flex
-  height: auto
 
 .col-3
   width: 50%
 
+/*.workblocks-wrap
+  width: 50%
+  display: flex
+
+/*.works-wrap
+  width: 50%
+  display: flex
 
 
 @media (max-width: 640px)
-  .home-sections .flex
-    display: block
+  .home-sections
+    .flex
+      display: block
 
-  .col-1
-    max-width: 100%
+      .col-1
+        max-width: 100%
 
-  .col-50
-    width: auto
-
-  .servicesblocks-wrap
-    width: 50%
+      .col-50
+        width: auto
 
   .services-wrap
     width: 50%
+
+  .serv-container
+    .cds
+      .border-box
+        .title
+          margin-top: 45px
+
+  /*.works-wrap
+    width: 50%
+
+  /*.work-container
+    .cds
+      .border-box
+        .title
+          margin-top: 45px
+
+
+
+@media (max-width: 950px)
+  /*.worksblocks-wrap
+    display: block
+  section.works-appear
+    .flex
+      flex-direction: column
+      .col-1
+        max-width: 450px
+        padding: 10px
+
+      .col-50
+        .workblocks
+          max-width: 300px
+
+@media (max-width: 470px)
+  /*.worksblocks-wrap
+    display: block
+  section.works-appear
+    .flex
+      flex-direction: column
+      .col-1
+        width: 300px
+        padding: 10px
+
+      .col-50
+        .workblocks
+          max-width: 300px

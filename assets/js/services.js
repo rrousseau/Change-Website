@@ -28,13 +28,19 @@ $(function() {
 function servicesBelt() {
 
 	$('.readmore').click(function(){
-		$('.services-belt').css('left','-100%');
-		$('.services-container').show();
+		$('.services-container').show(1100);
+		$('.servicesblocks-wrap').hide(1100);
+
+		var divPosition = $('#services').offset();
+
+		$('html, body').animate({scrollTop: divPosition.top-49}, "slow");
+
 	});
 
 	$('.services-return').click(function(){
-		$('.services-belt').css('left','0%');
-		$('.services-container').hide(900);
+		$('.services-container').hide(1100);
+		$('.servicesblocks-wrap').show(1100);
+
 	});
 
 }
